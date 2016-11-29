@@ -1,0 +1,208 @@
+.hero {
+  align-items: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", serif;
+  justify-content: center;
+  min-height: 800px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.cta {
+  background-color: #000;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 50px;
+  padding: 0;
+  width: 100px;
+}
+
+.cta:hover {
+  color: #00FCCC;
+}
+
+/*************** INTRO STYLING ***************/
+
+.landscape {
+  color: #fff;
+}
+
+#intro h1, #intro h5 {
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+#intro h5{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 72px;
+  line-height: 55px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+/*************** ABOUT STYLING ***************/
+
+#about {
+  min-height: 0;
+}
+
+.left-col {
+  color: #00E2AC;
+  font-weight: 700px;
+  padding: 20px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.left-col h2 {
+  font-size: 60px;
+  font-weight: 700px;
+  line-height: 55px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.right-col {
+  padding: 20px;
+  text-align: left;
+}
+
+.right-col h5 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+/*************** ABOUT STYLING ***************/
+
+#gallery {
+  background-color: #EEFDF9;
+  margin: 0;
+  padding: 0;
+}
+
+#gallery .col-md-4 {
+  padding: 0 5px 10px 5px;
+  overflow: hidden;
+}
+
+.col-md-4 img {
+  height: 100%;
+  max-height: 380px;
+  max-width: 380px;
+}
+
+/*************** BRIDGE STYLING ***************/
+
+.bridge {
+  background-image: url("../img/bridge/full-width.jpg");
+  width: 100%;
+}
+
+/*************** CONTACT STYLING ***************/
+
+#contact p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  max-width: 740px;
+}
+
+#social {
+  padding: 20px;
+}
+
+#social a {
+  margin: 0 0 0 10px;
+  text-decoration: none;
+}
+
+#social img {
+  height: 20px;
+}
+
+#social img:hover {
+  opacity: 0.5;
+}
+
+/*************** FOOTER STYLING ***************/
+
+#footer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  margin-left: 10%;
+  padding-bottom: 150px;
+}
+
+#footer a {
+  color: #000;
+  font-size: 16px;
+  line-height: 40px;
+  margin-left: 5px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+#footer .footer-item {
+  flex: 1;
+  max-width: 100px;
+}
+
+.copyright {
+  color: #00E2AC;
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+/*************** MEDIA QUERIES STYLING ***************/
+
+@media screen and (max-width: 480px) {
+
+  #intro {
+    min-height: 640px;
+  }
+  .left-col h2 {
+    font-size: 42px;
+    line-height: 40px;
+  }
+
+  #footer {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #footer h4 {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  .row {
+    width: 100%;
+  }
+
+  .col-md-4 {
+    width: 100%;
+  }
+
+  .col-md-4 img {
+    max-height: 900px;
+    max-width: 992px;
+    width: 100%;
+  }
+
+}
